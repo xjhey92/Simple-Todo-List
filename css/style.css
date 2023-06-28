@@ -60,8 +60,6 @@ h2 span {
     background-color: orange
 }
 
-
-
 #tasks {
     margin: 1em;
     display: flex;
@@ -96,19 +94,37 @@ h2 span {
     justify-content: space-between;
 }
 .edit,
+.done,
 .remove {
     font-size: .8rem;
     text-transform: uppercase;
 }
 .edit {
-    color: rgb(0, 255, 0);
+    color: rgb(0, 66, 233);
 }
 .edit:hover {
-    color: rgb(0, 158, 0);
+    color: rgb(35, 0, 177);
 }
 .remove {
     color: rgb(255, 0, 0);
 }
 .remove:hover {
     color: rgb(158, 0, 0);
+}
+.done {
+    color: rgb(161, 251, 161);
+}
+.done:hover {
+    color: rgb(0, 128, 0);
+}
+.done-mark {
+    text-decoration: line-through;
+}
+.todo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.done-checkbox {
+    margin-right: 5px;
 }
